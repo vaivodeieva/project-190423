@@ -1,7 +1,7 @@
-function Home() {
+function Categories() {
     return (
         <div>
         </div >
     )
 }
-export default Home;
+export default Categories;
