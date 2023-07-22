@@ -1,6 +1,6 @@
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './Views/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Views/Home.js';
 import Header from './Components/Header';
 import Categories from './Views/Categories';
 import Footer from './Components/Footer';
@@ -11,12 +11,8 @@ function App() {
             <Router>
                 <Header />
                 <Routes>
-                    <Route exact path="/">
-                        <Home />
-                    </Route>
-                    <Route path="/categories">
-                        <Categories />
-                    </Route>
+                    <Route exact path="/" element={<Home />} />
+                    <Route path="/" element={<Categories />} />
                 </Routes>
                 <Footer />
             </Router>
