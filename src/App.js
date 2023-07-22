@@ -6,26 +6,23 @@ import Categories from './Views/Categories';
 import Footer from './Components/Footer';
 
 function App() {
-  return (
-    <div >
+    return (
+        <div>
             <Router>
                 <Header />
                 <Routes>
-
                     <Route exact path="/">
                         <Home />
                     </Route>
-
                     <Route path="/categories">
                         <Categories />
                     </Route>
-
                 </Routes>
                 <Footer />
             </Router>
 
         </div>
-  );
+    );
 }
 
 export default App;
