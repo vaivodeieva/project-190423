@@ -3,7 +3,7 @@ import $ from 'jquery';
 
 function Home() {
 
-    $(document).ready(function () {
+    $(document).on(function () {
         const themeSwitch = document.querySelector("#toggle-theme");
         themeSwitch.addEventListener("change", () => {
           document.body.classList.toggle("dark-theme");
