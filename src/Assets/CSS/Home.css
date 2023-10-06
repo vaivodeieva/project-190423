@@ -918,3 +918,7 @@ li {
 #exampleInputtext1 {
   background-color: white;
 }
+
+.d-flex a {
+  background-color: white;
+}
