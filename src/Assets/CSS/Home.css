@@ -922,3 +922,11 @@ li {
 .d-flex a {
   background-color: white;
 }
+
+#exampleInputtext1 {
+  border-color: #88ffc6;
+}
+
+.black-btn {
+  border-color: #88ffc6 !important;
+}
