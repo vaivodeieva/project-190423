@@ -8,11 +8,11 @@
   --black: #000;
 }
 
-h1,
+/* h1,
 p {
   margin: 0;
   line-height: 2;
-}
+} */
 
 #header-body {
   /* background-image: url("https://assets.codepen.io/9051928/gradient.png"); */
