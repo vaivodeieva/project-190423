@@ -94,13 +94,3 @@ p {
   background-color: var(--black);
   border: 1px solid var(--black);
 }
-
-#header-main {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0 2rem;
-  gap: 2rem;
-}
