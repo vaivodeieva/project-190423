@@ -12,12 +12,6 @@ function Header() {
           </div>
           <div className="backdrop"></div>
         </nav>
-
-        <main id='header-main'>
-          <h1>Header</h1>
-          <p>Text goes here</p>
-          <a href="/" target="_blank"><button>Source</button></a>
-        </main>
       </div>
     </div>
   )
