@@ -10,7 +10,6 @@ function Header() {
             <p>Webpage</p>
             <button id='header-btn'>Sign up</button>
           </div>
-          <div className="backdrop"></div>
         </nav>
       </div>
     </div>
